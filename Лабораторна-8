@@ -55,18 +55,6 @@ for student in students_dict["students"]:
 
 
 --------------------------------------------------------------------------------------Оновлений Код Олександра Молодики---------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
 # Створення початкового словника
 students_dict = {
     "group_number": 101,
@@ -133,3 +121,4 @@ print("\nПісля сортування за середньою оцінкою:
 for student in students_dict["students"]:
     avg_grade = calculate_average_grade(student["subjects"])
     print(f"Студент: {student['name']}, Курс: {student['course']}, Середня оцінка: {avg_grade:.2f}")
+
